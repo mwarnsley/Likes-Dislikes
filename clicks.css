@@ -1,28 +1,24 @@
+body{
+	 background-color:#ff0000;
+	 filter:progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#ff0000, endColorstr=#1aff00);
+	 background-image:-moz-linear-gradient(left, #ff0000 45%, #1aff00 55%);
+	 background-image:-webkit-linear-gradient(left, #ff0000 45%, #1aff00 55%);
+	 background-image:-ms-linear-gradient(left, #ff0000 45%, #1aff00 55%);
+	 background-image:linear-gradient(left, #ff0000 45%, #1aff00 55%);
+	 background-image:-o-linear-gradient(left, #ff0000 45%, #1aff00 55%);
+	 background-image:-webkit-gradient(linear, left bottom, right bottom, color-stop(45%,#ff0000), color-stop(55%,#1aff00));
+}
+
 .wrapper{
   margin: 0 auto;
   width: 50%;
 }
 
-.likes{
-  background-color: black;
-  border-radius: 100px;
-  height: 200px;
-  float: left;
-  width: 200px;
-}
-
-.dislikes{
-  background-color: black;
-  border-radius: 100px;
-  height: 200px;
-  float: right;
-  width: 200px;
-}
-
-#l-counter{
+#l-counter, .likes-counter{
   float: left;
 }
 
-#d-counter{
+#d-counter, .dislikes-counter{
   float: right;
 }
+
